@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C56C9BB42A0B5CA2007AD43D /* CrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56C9BB32A0B5CA2007AD43D /* CrashViewController.swift */; };
+		C56F96CC2A0990110049A15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F96CB2A0990100049A15A /* AppDelegate.swift */; };
+		C56F96D02A0991F50049A15A /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F96CF2A0991F40049A15A /* Window.swift */; };
 		C5F2CF3E2A09679F00C9B205 /* rcmdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2CF3D2A09679F00C9B205 /* rcmdApp.swift */; };
 		C5F2CF402A09679F00C9B205 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2CF3F2A09679F00C9B205 /* ContentView.swift */; };
 		C5F2CF422A0967A400C9B205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F2CF412A0967A400C9B205 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C56C9BB32A0B5CA2007AD43D /* CrashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashViewController.swift; sourceTree = "<group>"; };
+		C56F96CB2A0990100049A15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C56F96CF2A0991F40049A15A /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		C5F2CF3A2A09679F00C9B205 /* rcmd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rcmd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F2CF3D2A09679F00C9B205 /* rcmdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rcmdApp.swift; sourceTree = "<group>"; };
 		C5F2CF3F2A09679F00C9B205 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C56F96CE2A0991630049A15A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C56F96CF2A0991F40049A15A /* Window.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C5F2CF312A09679F00C9B205 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +109,14 @@
 		C5F2CF3C2A09679F00C9B205 /* rcmd */ = {
 			isa = PBXGroup;
 			children = (
+				C56F96CE2A0991630049A15A /* Models */,
 				C5F2CF3D2A09679F00C9B205 /* rcmdApp.swift */,
+				C56F96CB2A0990100049A15A /* AppDelegate.swift */,
 				C5F2CF3F2A09679F00C9B205 /* ContentView.swift */,
 				C5F2CF412A0967A400C9B205 /* Assets.xcassets */,
 				C5F2CF462A0967A400C9B205 /* rcmd.entitlements */,
 				C5F2CF432A0967A400C9B205 /* Preview Content */,
+				C56C9BB32A0B5CA2007AD43D /* CrashViewController.swift */,
 			);
 			path = rcmd;
 			sourceTree = "<group>";
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56F96CC2A0990110049A15A /* AppDelegate.swift in Sources */,
 				C5F2CF402A09679F00C9B205 /* ContentView.swift in Sources */,
 				C5F2CF3E2A09679F00C9B205 /* rcmdApp.swift in Sources */,
+				C56C9BB42A0B5CA2007AD43D /* CrashViewController.swift in Sources */,
+				C56F96D02A0991F50049A15A /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
